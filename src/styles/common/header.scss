@@ -1,0 +1,54 @@
+@import "../mixins/media";
+
+.main-header{
+  &__wrap{
+    display: flex;
+    align-items: center;
+    flex: 0 1 auto;
+    justify-content: space-between;
+  }
+  &__logo a{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    outline: none;
+  }
+  &__logo p{
+    padding-left: 14px;
+    font-size: 1.6vw;
+  }
+  &__logo p:hover,
+  &__logo p:focus{
+    text-decoration: underline;
+  }
+
+  &__logo p:active{
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+  &__nav{
+    width: 58%;
+  }
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__item{
+    padding: 5px 23px;
+    cursor: pointer;
+    &__active{
+      color:#ffffff;
+    }
+  }
+  &__item > a {
+    display: block;
+    font-size:1.2vw;
+  }
+  &__item > a:hover,
+  &__item > a:focus {
+    color: rgba(255,255,255,0.8);
+  }
+  &__item > a:active {
+    color: rgba(255,255,255,1);
+  }
+}

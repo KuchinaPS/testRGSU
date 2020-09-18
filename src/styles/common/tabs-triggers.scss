@@ -1,0 +1,39 @@
+.tabs-triggers {
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    color: #C3CAD6;
+    margin-right: 20px;
+    font-size: 26px;
+
+    &--active {
+      color: #3464E0;
+    }
+  }
+}
+
+.tabs-triggers__item:last-child {
+  margin-right: 0;
+}
+
+.tabs-triggers__item:hover,
+.tabs-triggers__item:focus{
+  color: #8d929c;
+  outline: none;
+}
+
+.tabs-triggers__item:active {
+  color: #C3CAD6;
+
+}
+
+.tabs-triggers__item--active:hover,
+.tabs-triggers__item--active:focus{
+  color: #1740AA;
+  outline: none;
+}
+
+.tabs-triggers__item--active:active {
+  color: #3464E0;
+}

@@ -1,0 +1,14 @@
+.tabs-content {
+
+  &__item {
+    display: none;
+
+    &--active {
+      display: block;
+    }
+    &--reg .form__input{
+      max-width: 280px;
+    }
+  }
+}
+

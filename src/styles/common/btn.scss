@@ -1,0 +1,53 @@
+.btn {
+  border: none;
+  background: #1740AA;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size:  0.97vw;
+  white-space: nowrap;
+  padding: 13px 33px 13px 63px;
+  position: relative;
+  cursor: pointer;
+
+  &__bottom {
+    background: #3464E0;
+    border: 1px solid #3464E0;
+    border-radius: 4px;
+    padding: 9px 17px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  &__cancel {
+    border: 1px solid #C3CAD6;
+    border-radius: 4px;
+    color: #C3CAD6;
+    background-color: #ffffff;
+    padding: 13px 30px;
+  }
+}
+
+.btn:after {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 25px;
+  left: 28px;
+  top: 8px;
+  background-image: url("../img/enter.svg");
+  background-repeat: no-repeat;
+}
+
+.btn__bottom:after,
+.btn__cancel:after {
+  content: "";
+  background-image: none;
+}
+.btn:hover,
+.btn:focus{
+  outline: none;
+  text-decoration: underline;
+}
+.btn:active{
+  background-color: #0a36a8;
+}

@@ -1,0 +1,40 @@
+@import "../../local_modules/normalize.css/normalize";
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(84.71deg, #3464E0 1.19%, #2955C9 99.81%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 18px;
+  line-height: 1.1;
+  font-family: "Russia", Arial, sans-serif;
+  font-weight: 400;
+  color: #9CBAF0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
